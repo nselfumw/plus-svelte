@@ -51,11 +51,11 @@
     <input tabindex="1" bind:value={north} id="north" class="box" type="number">
     <div id="thumbs">{ thumbs }</div>
 
-    <input tabindex="2" bind:value={west} id="west" class="box" type="number">
+    <input tabindex="4" bind:value={west} id="west" class="box" type="number">
     <div id="target">{ target }</div>
-    <input tabindex="3" bind:value={east} id="east" class="box" type="number">
+    <input tabindex="2" bind:value={east} id="east" class="box" type="number">
 
-    <input tabindex="4" bind:value={south} id="south" class="box" type="number">
+    <input tabindex="3" bind:value={south} id="south" class="box" type="number">
   </div>
 </main>
 
